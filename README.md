@@ -22,13 +22,13 @@ There were six annotators who contributed to the annotation process. They are st
 
 ## Experiments
 IndEL was used to evaluate cutting-edge EL systems in multilingual settings using [the GERBIL framework](https://github.com/dice-group/gerbil).
-The EL systems included [Babelfy](http://babelfy.org/), (DBpedia Spotlight)[https://www.dbpedia-spotlight.org/], (MAG)[https://github.com/dice-group/AGDISTIS], and (WAT)[https://sobigdata.d4science.org/web/tagme/wat-api].
-Steps to perform the evaluation can be found (here)[https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL].
+The EL systems included [Babelfy](http://babelfy.org/), [DBpedia Spotlight](https://www.dbpedia-spotlight.org/), [MAG](https://github.com/dice-group/AGDISTIS), and [WAT](https://sobigdata.d4science.org/web/tagme/wat-api).
+Steps to perform the evaluation can be found [here](https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL).
 Evaluation results are as follows.
 |Metrics         |Babelfy   |DBpedia Spotlight|MAG     |WAT        |
 |----------------|----------|-----------------|--------|-----------|
 |General Domain  						   |	
-|Precision       |*0.7278*  |0.6746           |0.4265  |0.6121     |
+|Precision       |0.7278    |0.6746           |0.4265  |0.6121     |
 |Recall          |0.3719    |0.3575           |0.4166  |*0.5551*   |
 |F1              |0.4923    |0.4673           |0.4215  |*0.5822*   |
 |----------------|----------|-----------------|--------|-----------|
