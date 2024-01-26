@@ -48,7 +48,7 @@ The evaluation results are distinguished into linked and Not in Lexicon (NIL) en
 We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/gerbil/). This integration facilitates the evaluation of both multilingual and Indonesian-specific entity linking systems using IndEL.
 
 ## Further Development Plan
-During the creation of IndEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndEL to other Knowledge Bases, such as DBpedia and YAGO. Additionally, in terms of domain-specific content, our plan is to broaden the scope of the dataset to encompass the complete Indonesian translation of the Quran, extending from the currently included 8 chapters to all 114 chapters.
+During the creation of IndEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndEL to other knowledge bases, such as DBpedia and YAGO. Additionally, in terms of domain-specific content, our plan is to broaden the scope of the dataset to encompass the complete Indonesian translation of the Quran, extending from the currently included 8 chapters to all 114 chapters.
  
 ## Contact
 If you have any questions or feedbacks, feel free to contact us at ria.hari.gusmita@uni-paderborn.de or ria.gusmita@uinjkt.ac.id
