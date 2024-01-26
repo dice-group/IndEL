@@ -1,7 +1,7 @@
 # IndEL
 IndEL is the first Indonesian Entity Linking (EL) benchmark dataset for general and specific domains.
 It was manually created where the labeling process performed using a semantic annotation platform, [INCEpTION](https://inception-project.github.io/). 
-There are two Indonesian NER benchmark datasets utilized for entity extraction, i.e. [NER UI](https://github.com/indolem/indolem/tree/main/ner/data/nerui) and [IndQNER](https://github.com/dice-group/IndQNER/tree/main/datasets). NER UI contains entities in a general domain, and IndQNER provides entities in a specific domain, i.e. the Indonesian Translation of the Quran.
+There are two Indonesian NER benchmark datasets utilized for entity extraction, i.e. [NER UI](https://github.com/indolem/indolem/tree/main/ner/data/nerui) and [IndQNER](https://github.com/dice-group/IndQNER/tree/main/datasets). NER UI contains entities in a general domain, and IndQNER provides entities in a specific domain, i.e. the Indonesian Translation of the Quran. IndEL is presented in [NIF format](https://persistence.uni-leipzig.org/nlp2rdf/). 
 The dataset contains:
 |Domain          |Sentences|Tokens|Linked Entities|
 |----------------|---------|------|---------------|
@@ -9,9 +9,8 @@ The dataset contains:
 |Specific Domain |2621     |61816 |2453           |
 
 
-
 ## Annotation Stage
-There were six annotators who contributed to the annotation process. They are students of Informatics Engineering and Quran and Tafseer departments at the State Islamic University Syarif Hidayatullah Jakarta. 
+The manual annotation of IndEL, in both its general and specific domains, was carried out by non-volunteer native speakers. Specifically for the specific domain (pertaining to the Indonesian translation of the Quran), the annotators comprised students in their fourth year of bachelor studies from the Quran and Tafseer department at State Islamic University Syarif Hidayatullah Jakarta. There were six annotators as follows: 
 1. Anggita Maharani Gumay Putri
 2. Azmi Muchtar
 3. Muhammad Destamal Junas
@@ -31,7 +30,6 @@ Evaluation results are as follows.
 |Precision       |0.7278    |0.6746           |0.4265  |0.6121     |
 |Recall          |0.3719    |0.3575           |0.4166  |*0.5551*   |
 |F1              |0.4923    |0.4673           |0.4215  |*0.5822*   |
-|----------------|----------|-----------------|--------|-----------|
 |Specific Domain  						   |	
 |Precision       |0.8 	    |*0.8471*         |0.1523  |0.7681     |
 |Recall          |0.4696    |0.6731           |0.1508  |*0.7468*   |
@@ -46,5 +44,11 @@ The evaluation results are distinguished into linked and Not in Lexicon (NIL) en
 |Specific Domain |2453          |1930 		|523         |
 
 
+## How to use
+We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/gerbil/). This integration facilitates the evaluation of both multilingual and Indonesian-specific entity linking systems using IndEL.
+
+## Further Development Plan
+During the creation of IndEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndEL to other Knowledge Bases, such as DBpedia and YAGO. Additionally, in terms of domain-specific content, our plan is to broaden the scope of the dataset to encompass the complete Indonesian translation of the Quran, extending from the currently included 8 chapters to all 114 chapters.
+ 
 ## Contact
 If you have any questions or feedbacks, feel free to contact us at ria.hari.gusmita@uni-paderborn.de or ria.gusmita@uinjkt.ac.id
