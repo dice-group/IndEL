@@ -44,7 +44,7 @@ The evaluation results are distinguished into linked and Not in Lexicon (NIL) en
 |Specific Domain |2453          |1930 		|523         |
 
 
-## How to use
+## How to Use
 We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/gerbil/). This integration facilitates the evaluation of both multilingual and Indonesian-specific entity linking systems using IndEL.
 
 ## Further Development Plan
