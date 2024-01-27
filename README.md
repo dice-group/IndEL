@@ -1,8 +1,6 @@
 # IndEL
 IndEL is the first Indonesian Entity Linking (EL) benchmark dataset for general and specific domains.
-It was manually created where the labeling process performed using a semantic annotation platform, [INCEpTION](https://inception-project.github.io/). 
-There are two Indonesian NER benchmark datasets utilized for entity extraction, i.e. [NER UI](https://github.com/indolem/indolem/tree/main/ner/data/nerui) and [IndQNER](https://github.com/dice-group/IndQNER/tree/main/datasets). NER UI contains entities in a general domain, and IndQNER provides entities in a specific domain, i.e. the Indonesian Translation of the Quran. IndEL is presented in [NIF format](https://persistence.uni-leipzig.org/nlp2rdf/). 
-The dataset contains:
+It was manually created where the labeling process performed using a semantic annotation platform, [INCEpTION](https://inception-project.github.io/). There are two Indonesian NER benchmark datasets utilized for entity extraction, i.e., [NER UI](https://github.com/indolem/indolem/tree/main/ner/data/nerui) and [IndQNER](https://github.com/dice-group/IndQNER/tree/main/datasets). NER UI contains entities in a general domain, and IndQNER provides entities in a specific domain, i.e., the Indonesian Translation of the Quran. IndEL is presented in [NIF format](https://persistence.uni-leipzig.org/nlp2rdf/). The dataset contains:
 |Domain          |Sentences|Tokens|Linked Entities|
 |----------------|---------|------|---------------|
 |General Domain  |2114     |44833 |4767		  |
@@ -20,10 +18,7 @@ The manual annotation of IndEL, in both its general and specific domains, was ca
 
 
 ## Experiments
-IndEL was used to evaluate cutting-edge EL systems in multilingual settings using [the GERBIL framework](https://github.com/dice-group/gerbil).
-The EL systems included [Babelfy](http://babelfy.org/), [DBpedia Spotlight](https://www.dbpedia-spotlight.org/), [MAG](https://github.com/dice-group/AGDISTIS), and [WAT](https://sobigdata.d4science.org/web/tagme/wat-api).
-Steps to perform the evaluation can be found [here](https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL).
-Evaluation results are as follows.
+To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate cutting-edge EL systems in multilingual settings using [the GERBIL framework](https://github.com/dice-group/gerbil). The EL systems included [Babelfy](http://babelfy.org/), [DBpedia Spotlight](https://www.dbpedia-spotlight.org/), [MAG](https://github.com/dice-group/AGDISTIS), and [WAT](https://sobigdata.d4science.org/web/tagme/wat-api). Steps to perform the evaluation can be found [here](https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL). Evaluation results are as follows:
 |Metrics         |Babelfy   |DBpedia Spotlight|MAG     |WAT        |
 |----------------|----------|-----------------|--------|-----------|
 |General Domain  						   |	
@@ -36,8 +31,7 @@ Evaluation results are as follows.
 |F1              |0.5918    |0.7501           |0.1515  |**0.7573** |
 
 ### Another Evaluation with MAG
-To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within both the general and specific domains. 
-The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows.
+To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within both the general and specific domains. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
 |Domain          |Total Entities|Linked Entities|NIL Entities|
 |----------------|--------------|---------------|------------|
 |General Domain  |4767          |3163		|1604        |
@@ -45,7 +39,7 @@ The evaluation results are distinguished into linked and Not in Lexicon (NIL) en
 
 
 ## How to Use
-We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/gerbil/). This integration facilitates the evaluation of both multilingual and Indonesian-specific entity linking systems using IndEL.
+We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/gerbil/). This integration facilitates the evaluation of both multilingual and Indonesian-specific EL systems using IndEL.
 
 ## Further Development Plan
 During the creation of IndEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndEL to other knowledge bases, such as DBpedia and YAGO. Additionally, in terms of domain-specific content, our plan is to broaden the scope of the dataset to encompass the complete Indonesian translation of the Quran, extending from the currently included 8 chapters to all 114 chapters.
