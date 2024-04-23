@@ -2,7 +2,7 @@
 IndEL is the first Indonesian Entity Linking (EL) benchmark dataset for general and specific domains. It was manually created, and the labeling process was performed using a semantic annotation platform, [INCEpTION](https://inception-project.github.io/). There are two Indonesian NER benchmark datasets utilized for entity extraction, i.e., [NER UI](https://github.com/indolem/indolem/tree/main/ner/data/nerui) and [IndQNER](https://github.com/dice-group/IndQNER/tree/main/datasets). NER UI contains entities in a general domain, and IndQNER provides entities in a specific domain, i.e., the Indonesian Translation of the Quran. IndEL is presented in [NIF format](https://persistence.uni-leipzig.org/nlp2rdf/). The dataset contains:
 |Domain          |Sentences|Tokens|Linked Entities|
 |----------------|---------|------|---------------|
-|General Domain  |2114     |44833 |4767		  |
+|General Domain  |2114     |44833 |4765		  |
 |Specific Domain |2621     |61816 |2453           |
 
 
