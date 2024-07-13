@@ -26,6 +26,7 @@ The details of evaluation results can be observed [here](https://gerbil.aksw.org
 
 ### Another Evaluation with MAG
 To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within both the general and specific domains. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
+
 |Domain          |Total Entities|Linked Entities|NIL Entities|
 |----------------|--------------|---------------|------------|
 |General Domain  |4765          |3163		|1604        |
@@ -37,3 +38,6 @@ We have integrated IndEL into [the GERBIL framework](https://gerbil.aksw.org/ger
 
 ## Further Development Plan
 During the creation of IndEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndEL to other knowledge bases, such as BabelNet, DBpedia and YAGO. Additionally, we recognize another challenge posed by the magnitude of IndEL. To address this, we plan to enrich the dataset by incorporating additional NEs from other Indonesian NER benchmark datasets.
+
+## Contact
+If you have any questions or feedbacks, feel free to contact us at ria.hari.gusmita@uni-paderborn.de or ria.gusmita@uinjkt.ac.id
